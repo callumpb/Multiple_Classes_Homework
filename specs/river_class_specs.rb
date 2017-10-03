@@ -19,8 +19,9 @@ class TestRiver < MiniTest::Test
     assert_equal("Amazon", @river.name)
   end
 
+# below test may be incorrect assertion
   def test_remove_fish_from_river
-    assert_equal(0, @river.remove_from_river(@fish_1))
+    assert_equal(1, @river.remove_from_river(@fish_1))
   end
 
 

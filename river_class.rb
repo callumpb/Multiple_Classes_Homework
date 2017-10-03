@@ -6,8 +6,9 @@ class River
     @fish = fish
   end
 
+#below may be incorrect method 
   def remove_from_river(fish)
-    @fish.delete
+    @fish.delete(fish)
     return @fish.length
   end
 
