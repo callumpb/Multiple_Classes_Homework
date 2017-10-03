@@ -7,7 +7,7 @@ class TestFish < MiniTest::Test
   # A fish should have a name
 
   def setup
-    @fish = Fish.new("Nemo")
+    @fish_1 = Fish.new("Gerald")
 
   end
 

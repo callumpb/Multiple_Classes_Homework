@@ -3,6 +3,12 @@ class River
 
   def initialize(name, fish)
     @name = name
-    @fish = []
+    @fish = fish
   end
+
+  def remove_from_river(fish)
+    @fish.delete
+    return @fish.length
+  end
+
 end
