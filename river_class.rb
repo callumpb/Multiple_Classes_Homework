@@ -3,6 +3,6 @@ class River
 
   def initialize(name, fish)
     @name = name
-    @fish = 5
+    @fish = []
   end
 end
